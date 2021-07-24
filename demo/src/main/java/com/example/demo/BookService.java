@@ -6,11 +6,11 @@ import java.util.List;
 
 import org.springframework.stereotype.Component;
 
-@Component
+
 public class BookService {
 	
 	//create list
-	private static List<Book> books=new ArrayList<>();
+	private static List<Book> books=new ArrayList<Book>();
 	
 	//create book count
 	private static int bookCount =3;
